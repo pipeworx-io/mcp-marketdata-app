@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-marketdata-app",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Market Data App MCP — wraps the Market Data App API (marketdata.app)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-bb6a4cd744596b48a3a341a6e66cdec28addf06d5d26bef38e8e33104596a532",
-    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
+    "sourceHash": "v1-ff0dbc4dc2ef112f21fc3ed239d98aaf6a1200dde31ac5973694658e26987e10",
+    "sourceCommit": "ba9dd6df5992aeb16ef2425ee86d1752c34ca636"
   }
 }
