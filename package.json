@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-marketdata-app",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Market Data App MCP — wraps the Market Data App API (marketdata.app)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-marketdata-app": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "marketdata-app"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-marketdata-app.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/marketdata-app",
   "pipeworx": {
-    "sourceHash": "v1-ff0dbc4dc2ef112f21fc3ed239d98aaf6a1200dde31ac5973694658e26987e10",
-    "sourceCommit": "ba9dd6df5992aeb16ef2425ee86d1752c34ca636"
+    "mode": "gateway",
+    "slug": "marketdata-app",
+    "gatewaySlug": "marketdata-app",
+    "sourceHash": "v1-9c1cfd589562dd3ec9683de574e96a60773510ab2515fedd7dad16c847c1fc5e",
+    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
   }
 }
