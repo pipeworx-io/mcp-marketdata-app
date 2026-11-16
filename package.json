@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-marketdata-app",
-  "version": "0.2.1",
-  "description": "Market Data App MCP — wraps the Market Data App API (marketdata.app)",
+  "version": "0.2.2",
+  "description": "Unofficial Market Data App MCP — wraps the Market Data App API (marketdata.app)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "marketdata-app",
     "gatewaySlug": "marketdata-app",
-    "sourceHash": "v1-d5147a58b99c5e9eded7420e903693106263fbe0e75f13951c3cabdf0d0d1b88",
-    "sourceCommit": "236b0a46d91f343fe094da9f499c378e88f78312"
+    "sourceHash": "v1-25f0ab71ae1e2e209087d0af706eaaed38f0b02ff93bf45dab2938f2683a55a1",
+    "sourceCommit": "874331b0c46b151f9264bd14840631427a7721c1"
   }
 }

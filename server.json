@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/marketdata-app",
-  "title": "Marketdata App",
-  "description": "Market Data App MCP — wraps the Market Data App API (marketdata.app)",
-  "version": "0.2.1",
+  "title": "Market Data App (Unofficial)",
+  "description": "Unofficial Market Data App MCP — wraps the Market Data App API (marketdata.app)",
+  "version": "0.2.2",
   "websiteUrl": "https://pipeworx.io/packs/marketdata-app",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-marketdata-app",
